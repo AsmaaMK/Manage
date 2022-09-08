@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .list-title {
+    @apply rounded-l-2xl py-2 md:py-0 bg-very-pale-red md:bg-transparent mb-4 md:m-0 -mr-4;
+  }
+
+  .list-number {
+    @apply bg-bright-red md:mt-2 py-2 md:py-1 px-4 rounded-2xl text-white font-bold md:absolute -left-16;
+  }
+}
+
+* {
+  line-height: 1.6 !important;
+}
+
+.show {
+  right: 2.5rem;
+}
+
+.stop-scrolling {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.body-bg {
+  background-image: url('../images/bg-tablet-pattern.svg'),
+    url('../images/bg-tablet-pattern.svg');
+  background-repeat: no-repeat;
+  background-position: 50vw -10vw, -30vw 900px;
+  background-size: 50vw 50vw, 50vw 50vw;
+}
+
+.last-sec-bg {
+  background-image: url('../images/bg-simplify-section-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
