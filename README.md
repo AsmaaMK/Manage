@@ -5,7 +5,7 @@
 
 ## Links
 
-Live Site URL: [https://manage-landing-page-asmaamk.vercel.app/](https://manage-landing-page-asmaamk.vercel.app/)
+Live Site URL: [https://manage-asmaamk.vercel.app](https://manage-asmaamk.vercel.app/)
 
 
 ## Built with
