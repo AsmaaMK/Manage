@@ -238,7 +238,11 @@
 
                 <div class="owl-item px-5">
                   <div class="mx-auto block w-20">
-                    <img src="./src/images/avatar-ali.png" class="w-full" alt="" />
+                    <img
+                      src="./src/images/avatar-ali.png"
+                      class="w-full"
+                      alt=""
+                    />
                   </div>
                   <p class="my-4 text-center font-bold text-dark-blue">
                     Ali Bravo
@@ -442,15 +446,16 @@
       </div>
     </footer>
 
-    <!-- owl carousel scripts -->
-    <script type="module" src="./node_modules/jquery/dist/jquery.min.js"></script>
-    <script type="module" src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
-    <script type="module" src="./src/js/owl-carousel.js"></script>
-
-    <!-- custom scripts -->
-    <script type="module" src="./src/js/nav-toggler.js"></script>
-    <script type="module" src="./src/js/form-validation.js"></script>
-    <script type="module" src="./src/js/scroll-to-top-btn.js"></script>
+    <script type="module">
+      // my scripts
+      import './src/js/nav-toggler.js';
+      import './src/js/form-validation.js';
+      import './src/js/scroll-to-top-btn.js';
+      // owl carousel scripts
+      import 'https://code.jquery.com/jquery-3.2.1.slim.min.js';
+      import 'https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js';
+      import './src/js/owl-carousel.js';
+    </script>
   </body>
 </html>
 
